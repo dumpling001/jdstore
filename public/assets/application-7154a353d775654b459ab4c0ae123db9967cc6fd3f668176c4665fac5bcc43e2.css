@@ -1212,7 +1212,7 @@ acronym {
 
 /* line 71, /Users/liuhuajiao/jdstore/jdstore/app/assets/stylesheets/products.scss */
 .productList-item-cartBtn:hover {
-  background: #D32048;
+  background: #d88208;
 }
 /* line 74, /Users/liuhuajiao/jdstore/jdstore/app/assets/stylesheets/products.scss */
 .productList-item-cartBtn:hover .fa-shopping-cart {
@@ -1240,7 +1240,7 @@ acronym {
   width: 178px;
   height: 48px;
   line-height: 45px;
-  border: 1px solid #d32048;
+  border: 1px solid #d88208;
   border-radius: 50px;
 }
 /* line 101, /Users/liuhuajiao/jdstore/jdstore/app/assets/stylesheets/products.scss */
@@ -1286,7 +1286,7 @@ acronym {
   width: 178px;
   height: 48px;
   line-height: 45px;
-  border: 1px solid #d32048;
+  border: 1px solid #d88208;
   border-radius: 10px;
 }
 /* line 142, /Users/liuhuajiao/jdstore/jdstore/app/assets/stylesheets/products.scss */
@@ -16119,7 +16119,7 @@ a:hover {
 
 /* line 1892, /Users/liuhuajiao/jdstore/jdstore/app/assets/stylesheets/application.scss */
 .bg-red {
-  background: #D32048;
+  background: #d88208;
 }
 
 /* line 1896, /Users/liuhuajiao/jdstore/jdstore/app/assets/stylesheets/application.scss */
@@ -16139,7 +16139,7 @@ a:hover {
 
 /* line 1908, /Users/liuhuajiao/jdstore/jdstore/app/assets/stylesheets/application.scss */
 .col-red {
-  color: #d32048;
+  color: #d88208;
 }
 
 /* line 1912, /Users/liuhuajiao/jdstore/jdstore/app/assets/stylesheets/application.scss */
