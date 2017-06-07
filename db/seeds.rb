@@ -52,8 +52,20 @@ puts "原有用户已全部删除，正在重新创建新用户......"
     u.save
     puts "买家账号#{u.email}注册成功！密码#{u.password}"
 
+#Initialize Category
+
+Category.delete_all
+puts "原有类别已全部删除，重新创建新类别......"
+
+Category.create!(name: "情感")
+puts "情感类别创建成功！"
+Category.create!(name: "读写")
+puts "读写类别创建成功！"
+Category.create!(name: "理财")
+puts "读写类别创建成功！"
+
 Product.delete_all
-puts "原有商品已全部删除，正在重新创建新商品......"
+puts "原有商品已全部删除，重新创建新商品......"
 
 #Initialize Product
 #product 1
