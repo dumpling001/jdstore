@@ -8,40 +8,40 @@
 User.delete_all
 puts "原有用户已全部删除，正在重新创建新用户......"
 # Initialize Boss User 1
-  u = User.new
-  u.email = "boss-cj@success.com" #可以改成自己的email
-  u.password = "666666"
-  u.password_confirmation = "666666"
-  u.is_admin = true
-  u.save
-  puts "老板账号#{u.email}注册成功！密码#{u.password}"
-
-# Initialize Boss User 2
-  u = User.new
-  u.email = "boss-lhj@success.com" #可以改成自己的email
-  u.password = "666666"
-  u.password_confirmation = "666666"
-  u.is_admin = true
-  u.save
-  puts "老板账号#{u.email}注册成功！密码#{u.password}"
-
-# Initialize Customer User 1
-  u = User.new
-  u.email = "cj@success.com" #可以改成自己的email
-  u.password = "666666"
-  u.password_confirmation = "666666"
-  u.is_admin = false
-  u.save
-  puts "买家账号#{u.email}注册成功！密码#{u.password}"
-
-# Initialize Customer User 2
-  u = User.new
-  u.email = "lhj@success.com" #可以改成自己的email
-  u.password = "666666"
-  u.password_confirmation = "666666"
-  u.is_admin = false
-  u.save
-  puts "买家账号#{u.email}注册成功！密码#{u.password}"
+#   u = User.new
+#   u.email = "boss-cj@success.com" #可以改成自己的email
+#   u.password = "666666"
+#   u.password_confirmation = "666666"
+#   u.is_admin = true
+#   u.save
+#   puts "老板账号#{u.email}注册成功！密码#{u.password}"
+#
+# # Initialize Boss User 2
+#   u = User.new
+#   u.email = "boss-lhj@success.com" #可以改成自己的email
+#   u.password = "666666"
+#   u.password_confirmation = "666666"
+#   u.is_admin = true
+#   u.save
+#   puts "老板账号#{u.email}注册成功！密码#{u.password}"
+#
+# # Initialize Customer User 1
+#   u = User.new
+#   u.email = "cj@success.com" #可以改成自己的email
+#   u.password = "666666"
+#   u.password_confirmation = "666666"
+#   u.is_admin = false
+#   u.save
+#   puts "买家账号#{u.email}注册成功！密码#{u.password}"
+#
+# # Initialize Customer User 2
+#   u = User.new
+#   u.email = "lhj@success.com" #可以改成自己的email
+#   u.password = "666666"
+#   u.password_confirmation = "666666"
+#   u.is_admin = false
+#   u.save
+#   puts "买家账号#{u.email}注册成功！密码#{u.password}"
 
   # Initialize Customer User 3
     u = User.new
