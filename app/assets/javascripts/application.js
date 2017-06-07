@@ -17,6 +17,7 @@
 //= require bootstrap/dropdown
 //= require bootstrap/modal
 //= require bootstrap/carousel
+//= require bootstrap/collapse
 //= require_tree .
 
 $(document).ready(function() {
