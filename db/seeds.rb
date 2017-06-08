@@ -5,8 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-User.delete_all
-puts "原有用户已全部删除，正在重新创建新用户......"
+# User.delete_all
+# puts "原有用户已全部删除，正在重新创建新用户......"
 # Initialize Boss User 1
 #   u = User.new
 #   u.email = "boss-cj@success.com" #可以改成自己的email
@@ -44,13 +44,13 @@ puts "原有用户已全部删除，正在重新创建新用户......"
 #   puts "买家账号#{u.email}注册成功！密码#{u.password}"
 
   # Initialize Customer User 3
-    u = User.new
-    u.email = "nice@success.com" #可以改成自己的email
-    u.password = "666666"
-    u.password_confirmation = "666666"
-    u.is_admin = false
-    u.save
-    puts "买家账号#{u.email}注册成功！密码#{u.password}"
+    # u = User.new
+    # u.email = "nice@success.com" #可以改成自己的email
+    # u.password = "666666"
+    # u.password_confirmation = "666666"
+    # u.is_admin = false
+    # u.save
+    # puts "买家账号#{u.email}注册成功！密码#{u.password}"
 
 #Initialize Category
 
