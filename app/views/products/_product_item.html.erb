@@ -1,20 +1,19 @@
-<li class="fl productList-item p15 pr <%= last_item(index) %>">
-  <p class="productList-item-pic">
-    <%= link_to product_path(product) do %>
-      <% if product.image.present? %>
-        <%= image_tag(product.image.thumb.url, class: "thumbnail") %>
-      <% else %>
-        <%= image_tag("http://placehold.it/418x418&text=No Pic") %>
-      <% end %>
-    <% end %>
-  </p>
-  <p class="productList-item-price fb col-orange f18 mt10">￥<%= product.price %></p>
+<li class="fl productList-item p15 pr">
+
   <p class="productList-item-name fb col-orange f18 mt10">
     <%= link_to product_path(product) do %>
-       <%= product.title %>
+       <%= truncate(product.title, :length => 10) %>
     <% end %>
   </p>
-  <p class="productList-item-desc mt5 f12"><%= product.description %></p>
+
+  <div class="productList-item-pic">
+    <%= link_to product_path(product) do %>
+    <p class="product-card"><%= truncate(product.description, :length => 80) %>
+    <% end %>
+  </p>
+
+  <p class="productList-item-price fb col-orange f18 mt10">￥<%= product.price %></p>
+
     <%= link_to add_to_cart_product_path(product), :method => :post, class: "addCartBtn productList-item-cartBtn pa border f18", :remote => true do %>
       <i class="fa fa-shopping-cart col-orange"></i>
     <% end %>
