@@ -79,13 +79,11 @@
   border-radius   : 2px;
   box-shadow      : 0 2px 2px rgba(0, 0, 0, 0.3);
   overflow        : hidden;
-  // font-family     : roboto;
 }
 
 .loginmodal-container h1 {
   text-align: center;
   font-size : 1.8em;
-  // font-family: roboto;
 }
 
 .loginmodal-container input[type=submit] {
@@ -123,7 +121,6 @@ input[type=password]:hover {
 .loginmodal {
   text-align : center;
   font-size  : 14px;
-  // font-family: 'Arial', sans-serif;
   font-weight: 700;
   height     : 36px;
   padding    : 0 8px;
@@ -139,7 +136,6 @@ input[type=password]:hover {
   text-shadow     : 0 1px rgba(0,0,0,0.1);
   background-color: #4d90fe;
   padding         : 17px 0;
-  // font-family     : roboto;
   font-size       : 14px;
   /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
 }
@@ -507,7 +503,6 @@ h4 code {
   width      : auto !important;
   height     : auto !important;
   margin-left: 145px !important;
-  // font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 .carbonad-text {
@@ -1563,7 +1558,6 @@ h1[id] {
 }
 
 .bs-customizer input[type="text"] {
-  // font-family     : Menlo, Monaco, Consolas, "Courier New", monospace;
   background-color: #fafafa;
 }
 
@@ -1858,7 +1852,6 @@ html {
 
 body {
   position      : relative;
-  // font-family: Verdana,"Helvetica Neue",Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
   font-family   : 'Noto Sans SC', sans-serif, Verdana,"Helvetica Neue",Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp";
   /* For scrollspy */
   min-height    : 100%;
