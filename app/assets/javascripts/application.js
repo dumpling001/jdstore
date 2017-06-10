@@ -16,14 +16,19 @@
 //= require bootstrap/alert
 //= require bootstrap/dropdown
 //= require bootstrap/modal
-//= require bootstrap/carousel
+//= require bootstrap
 //= require bootstrap/collapse
+//= require wow.min
 //= require_tree .
 
-$(document).ready(function() {
-  $('#myCarousel').carousel({interval: 2000});
+$(document).ready(function(){
+  new WOW().init();
+})
 
-});
+// $(document).ready(function() {
+//   $('#myCarousel').carousel({interval: 2000});
+//
+// });
 
 
 // go top //
