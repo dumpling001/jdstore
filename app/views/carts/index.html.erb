@@ -1,14 +1,25 @@
+<div class="cart-wrap">
+<table class="table table-sm table-responsive" align="center">
+  <thead>
+    <tr class="cartProducts-title bg-gray border">
+      <th>商品信息</th>
+      <th>价格（元）</th>
+      <th>操作</th>
+    </tr>
+  </thead>
+  <tbody class="cartProducts-listItem">
+    <tr>
+      <% current_cart.cart_items.includes(:product).each do |cart_item| %>
+      <th scope="row"><%= link_to(cart_item.product.title, product_path(cart_item.product)) %></th>
+      <td><%= cart_item.product.price %></td>
+      <td><%= link_to("删除", cart_item_path(cart_item.product_id), method: :delete, class: "delete-btn", remote: true)%></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
 
-<div class="w1200 clearfix bc mt20">
-  <ul class="cartProducts-title clearfix bg-gray border">
-    <li class="tc fl cartProducts-title-msg">商品信息</li>
-    <li class="tc fl cartProducts-title-price">单价</li>
-    <!-- <li class="tc fl cartProducts-title-quantity">数量</li> -->
-    <li class="tc fl cartProducts-title-total">小计（元）</li>
-    <li class="tc fl cartProducts-title-operation">操作</li>
-  </ul>
-
-  <div class="cartPage-productList">
-    <%= render :partial => "product_list" %>
-  </div>
+<div class="account text-center">
+  <%= link_to("确认结账", checkout_carts_path, method: :post, class: "intro-text-btn add-cart pl15 pr15 ml20 tc col-red f20 bg-orange fr") %>
+  <p class="fr mt10 mr20">合计: <strong class="col-red f18">￥<%= render_cart_total_price(current_cart) %></strong></p>
+</div>
 </div>
