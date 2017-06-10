@@ -40,7 +40,11 @@
       <%= link_to("以微信支付", pay_with_wechat_order_path(@order.token), :method => :post, :class => "btn btn-danger") %>
     </div>
     <% else %>
-      <p class="text-center">此订单已完成付款</p>
+      <p class="text-center">此订单已完成付款，您购买的文章已送至：
+        <a href="/account/products/mybentos" class="btn btn-outline-inverse btn-lg" onclick="ga(&quot;send&quot;,&quot;event&quot;,&quot;Jumbotron actions&quot;,&quot;Download&quot;,&quot;Download 3.3.7&quot;)">
+          我的思想便当</a><br/><br/>请立即查看，即刻享用思想便当，让大脑火箭升级！
+
+      </p>
     <% end %>
 
   </div>
