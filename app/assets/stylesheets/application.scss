@@ -1931,15 +1931,15 @@ a:hover {
   margin-top: 30px;
 }
 
-.carousel-inner img {
-  /*-webkit-filter: grayscale(90%);*/
-  /*filter: grayscale(90%); make all photos black and white */
-  width     : 100%;
-  /* Set width to 100% */
-  margin    : auto;
-  background: repeating-radial-gradient(black, black 5px, white 5px, white 10px);
-  opacity   : 0.5;
-}
+// .carousel-inner img {
+//   /*-webkit-filter: grayscale(90%);*/
+//   /*filter: grayscale(90%); make all photos black and white */
+//   width     : 100%;
+//   /* Set width to 100% */
+//   margin    : auto;
+//   background: repeating-radial-gradient(black, black 5px, white 5px, white 10px);
+//   opacity   : 0.5;
+// }
 
 .thumbnail {
   border-radius       : 20px;
